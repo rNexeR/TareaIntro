@@ -1,1 +1,11 @@
 https://slidebean.com/p/T7MG7ZXQP1/Github
+
+Pasos a realizar para clonar, crear branch y subir.
+git clone 'URL'
+-->se mueven a la carpeta que les creo
+git checkout -b 'Nombre de su branch'
+-->hacen sus ejercicios
+git add -A
+git commit -m "Mensaje"
+git push origin 'Nombre de su branch'
+-->revisan github.com para comprobar que su branch existe
