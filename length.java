@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class length{
     public static void main(String[] args){
 
-        //Definiendo las variables
+        //Declarando las variables
         Scanner rd = new Scanner(System.in);
         String in;
         char out;
@@ -24,6 +24,6 @@ public class length{
             out = in.charAt( n );
             System.out.print("\n\t" + out);
         }
-        System.out.print("\n");
+        System.out.println();
     }
 }
