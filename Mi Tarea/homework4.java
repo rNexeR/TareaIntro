@@ -12,7 +12,7 @@ public static void main(String[] args) {
 
 	for(int x = size-1; x<size;x--){//Establecer una variables "x" que empiece desde el caracter (que sea size -1) para ubicarse en el ultimo caracter, y despues que disminuya en uno despues de cada ciclo.
 		char lector = palabra.charAt(x);//Definir un lector que empiece a leer desde x(o sea desde el ultimo caracter)
-		System.out.println(palabra.charAt(x));//Imprimir ese caracter.
+		System.out.print(palabra.charAt(x));//Imprimir ese caracter.
 
 		if(x>0){//Si "x" sigue ubicado despues del primer caracter
 			continue;//que repita la operacion
